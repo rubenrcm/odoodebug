@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "odoodebug",
+  "version": "1.0",
+  "description": "Reload the odoo web with developer mode activated",
+  "icons": {
+    "48": "icons/odebug-48.png"
+  },
+
+  "background": {
+    "scripts": ["odebug.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "button/odebug-32.png",
+    "default_title": "Debug!"
+  }
+}
