@@ -7,12 +7,17 @@
     "48": "icons/odebug-48.png"
   },
 
-  "background": {
-    "scripts": ["odebug.js"]
-  },
+  "permissions": [
+    "tabs"
+  ],
 
   "browser_action": {
     "default_icon": "button/odebug-32.png",
     "default_title": "Debug!"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
   }
+
 }
